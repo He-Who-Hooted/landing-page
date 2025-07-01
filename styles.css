@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero .call-to-action {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-image {
+    border-style: solid;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.navbar .navbar-links {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+}
