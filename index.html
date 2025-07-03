@@ -1,33 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
 </head>
 <body>
-    <div class="navbar">
-        <div class="header-logo">
+    
+    <nav class="navbar">
+        <div class="navbar-logo">
             Header Logo
         </div>
-        <ul class="navbar-links">
-            <li>link one</li>
-            <li>link two</li>
-            <li>link three</li>
-        </ul>
-    </div>
-    <div class="hero">
-    <div class="hero-left">
-        <div class="hero-title">This website is awesome</div>
-        <div class="call-to-action">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, dolores repellat! Rerum quod architecto quas ut non consequatur culpa, placeat aut nam! Qui quis, deleniti itaque odio neque totam repudiandae.
-            <button>Sign Up</button>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="hero-container">
+        <div class="hero-container-left">
+            <div class="hero-title">
+                This website is awesome
+            </div>
+            <div class="hero-content">
+                This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast
+            </div>
+            <button class="hero-action-btn">Sign up</button>
+        </div>
+        <div class="hero-container-right">
+            <img src="images/owl.jpg" alt="this is a placeholder for an image">
         </div>
     </div>
-        <div class="hero-image">
-            <img src="" alt="Image goes here">
-        </div>
+
+  <h1>Some random information.</h1>
+  <div class="card-container">
+    <div class="card">
+      <div class="card-image">
+        <img src="images/swan.jpg" alt="a swan in a lake">
+      </div>
+      <div class="card-text">
+        this is some subtext under an illustration or image
+      </div>
     </div>
+    <div class="card">
+      <div class="card-image">
+        <img src="images/duck.jpg" alt="a swan in a lake">
+      </div>
+      <div class="card-text">
+        this is some subtext under an illustration or image
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image">
+        <img src="images/flamingo.jpg" alt="a swan in a lake">
+      </div>
+      <div class="card-text">
+        this is some subtext under an illustration or image
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image">
+        <img src="images/robin.jpg" alt="a swan in a lake">
+      </div>
+      <div class="card-text">
+        this is some subtext under an illustration or image
+      </div>
+    </div>
+  </div>
+  
+  <div class="quote-section">
+    <div class="quote-content">
+        This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
+    </div>
+    <div class="quote-author">
+        -Thor, God of Thunder
+    </div>
+  </div>
+
+  <div class="action-section">
+    <div class="action-box">
+        <div class="action-box-left">
+            <div class="action-box-title">Call to action! It's time!</div>
+            <div class="action-box-subtitle">Sign up for our product by clicking that button right over there!</div>
+        </div>
+        <button class="action-box-btn">Sign up</button>    
+    </div>
+  </div>
+  
+  <div class="footer">
+    Copyright &copy; The Odin Project 2021
+  </div>
 
     
 </body>
